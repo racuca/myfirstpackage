@@ -16,3 +16,46 @@ load_mat <- function(infile){
   in.mat
 }
 
+#' add Math
+#'
+#' This function returns a result adds two parameters
+#' @param a math parameter 1
+#' @param b math parameter 2
+#' @return result
+#' @export
+add <- function(a, b) {
+  return (a + b)
+}
+
+#' minus Math
+#'
+#' This function returns a result minus two parameters
+#' @param a math parameter 1
+#' @param b math parameter 2
+#' @return result
+#' @export
+minus <- function(a, b) {
+  return (a - b)
+}
+
+#' Multiply Math
+#'
+#' This function returns a result multiply two parameters
+#' @param a math parameter 1
+#' @param b math parameter 2
+#' @return result
+#' @export
+multiple <- function(a, b) {
+  return (a * b)
+}
+
+#' Divide Math
+#'
+#' This function returns a result divide two parameters
+#' @param a math parameter 1
+#' @param b math parameter 2
+#' @return result
+#' @export
+divide <- function(a, b) {
+  return (a / b)
+}
